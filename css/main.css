@@ -1,8 +1,75 @@
 html {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  max-width: 300px;
+}
+
+p {
+  min-width: 300px;
+  max-width: 370px;
+  line-height: 1.5;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.info {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.inner {
+  float: left;
+  margin-left: .75rem;
+  margin-right: .75rem;
+}
+
+.inner-img {
+  width: 205px;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  font-size: 1.125rem;
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 8px;
+  padding: 0.4em 0.75em 0.3em;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-big {
+  font-size: 1rem;
 }
